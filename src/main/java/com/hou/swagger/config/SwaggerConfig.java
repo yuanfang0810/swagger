@@ -52,7 +52,7 @@ public class SwaggerConfig {
                 */
                 //any()扫面全部
                 .apis(RequestHandlerSelectors.basePackage("com.hou.swagger.controller"))
-                .paths(PathSelectors.ant("/kou/**"))
+//                .paths(PathSelectors.ant("/kou/**"))
                 .build()
                 ;
     }
