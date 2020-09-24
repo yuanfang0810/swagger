@@ -30,4 +30,9 @@ public class HelloController {
     public User post(@ApiParam("用户名") User user){
         return user;
     }
+    @ApiOperation("Post测试类")
+    @PostMapping ("/post")
+    public User postt(@ApiParam("用户名") User user){
+        return user;
+    }
 }
